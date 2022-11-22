@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Adminmaster.master.cs" Inherits="Online_Product_Complaint_Registration.Admin.Adminmaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+       <link href="css/StyleSheet1.css" rel="stylesheet" />  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet1" type="text/css" href="StyleSheet2.css">  
+</head>
+<body style="background-color: #97d27e;">  
+<header id="header">  
+<h1></h1>  
+</header>  
+<nav id="nav">  
+                <a href="../Guest/Firstform.aspx">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="../Admin/confirm.aspx">Confirm User</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="../Admin/product_details.aspx">Product Details</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="viewcomplaint.aspx">View Complaints</a>
+                
+     
+</nav>  
+  
+<div id="con">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+</html>

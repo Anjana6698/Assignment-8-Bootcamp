@@ -1,0 +1,1 @@
+﻿insert into Registration values('admin','admin','admin@gmail.com','9856787654','male',5);

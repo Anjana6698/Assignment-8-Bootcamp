@@ -1,0 +1,1 @@
+﻿select s.*,l.* from Registration s inner join tbl_login l on s.uId=l.uId  WHERE username='' AND password='Anju'

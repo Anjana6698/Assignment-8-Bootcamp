@@ -1,0 +1,1 @@
+﻿select r.*,d.* from tbl_complaint d INNER JOIN tbl_product r  ON r.pId=d.pid;
